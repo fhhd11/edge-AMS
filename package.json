@@ -1,0 +1,12 @@
+{
+  "name": "edge-ams",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "smoke": "node --loader ts-node/esm scripts/smoke.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
